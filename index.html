@@ -3,208 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutto a posto: Your AI Savings Guardian</title>
+    <title>Tutto a posto: Nurturing Your Family's Future</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="language-switcher">
-        <img src="/api/placeholder/24/16" alt="English" onclick="changeLanguage('en')">
-        <img src="/api/placeholder/24/16" alt="Italiano" onclick="changeLanguage('it')">
-    </div>
-
     <header>
-        <nav class="container">
-            <div class="logo">Tutto a posto</div>
-            <div class="nav-links">
-                <a href="#features" data-lang="en">Features</a>
-                <a href="#features" data-lang="it">Caratteristiche</a>
-                <a href="#how-it-works" data-lang="en">How It Works</a>
-                <a href="#how-it-works" data-lang="it">Come Funziona</a>
-                <a href="#testimonials" data-lang="en">Testimonials</a>
-                <a href="#testimonials" data-lang="it">Testimonianze</a>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Tutto a posto</span></h1>
             </div>
-            <button class="cta-button" data-lang="en">Get Started</button>
-            <button class="cta-button" data-lang="it">Inizia Ora</button>
-        </nav>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#showcase">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="hero container">
-            <div class="hero-content">
-                <h1 data-lang="en">Tutto a posto: Your AI Savings Guardian</h1>
-                <h1 data-lang="it">Tutto a posto: Il Tuo Guardiano AI del Risparmio</h1>
-                <p data-lang="en">Let our AI work tirelessly to optimize your bills and maximize your savings.</p>
-                <p data-lang="it">Lascia che la nostra AI lavori instancabilmente per ottimizzare le tue bollette e massimizzare i tuoi risparmi.</p>
-                <button class="cta-button" data-lang="en">Start Saving Now</button>
-                <button class="cta-button" data-lang="it">Inizia a Risparmiare Ora</button>
-            </div>
-            <div class="hero-image">
-                <img src="/api/placeholder/400/400" alt="AI Savings Guardian">
-            </div>
-        </section>
-
-        <section id="features" class="features container">
-            <div class="feature-card">
-                <h3 data-lang="en">Inbox Integration</h3>
-                <h3 data-lang="it">Integrazione con la Casella di Posta</h3>
-                <p data-lang="en">Securely connect your email for seamless bill analysis.</p>
-                <p data-lang="it">Connetti in modo sicuro la tua email per un'analisi delle bollette senza problemi.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-lang="en">AI Savings Analysis</h3>
-                <h3 data-lang="it">Analisi dei Risparmi con AI</h3>
-                <p data-lang="en">Our intelligent algorithm identifies the best deals for you.</p>
-                <p data-lang="it">Il nostro algoritmo intelligente identifica le migliori offerte per te.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-lang="en">Bill Optimization</h3>
-                <h3 data-lang="it">Ottimizzazione delle Bollette</h3>
-                <p data-lang="en">Automatically switch to better plans and lower your expenses.</p>
-                <p data-lang="it">Passa automaticamente a piani migliori e riduci le tue spese.</p>
-            </div>
-            <div class="feature-card">
-                <h3 data-lang="en">Automated Switching</h3>
-                <h3 data-lang="it">Cambio Automatico</h3>
-                <p data-lang="en">Hassle-free provider changes with your approval.</p>
-                <p data-lang="it">Cambi di fornitore senza problemi con la tua approvazione.</p>
-            </div>
-        </section>
-
-        <section id="how-it-works" class="how-it-works container">
-            <h2 data-lang="en">How It Works</h2>
-            <h2 data-lang="it">Come Funziona</h2>
-            <div class="steps">
-                <div class="step">
-                    <img src="/api/placeholder/64/64" alt="Connect">
-                    <h3 data-lang="en">Connect</h3>
-                    <h3 data-lang="it">Connetti</h3>
-                    <p data-lang="en">Link your inbox securely</p>
-                    <p data-lang="it">Collega la tua casella di posta in modo sicuro</p>
-                </div>
-                <div class="step">
-                    <img src="/api/placeholder/64/64" alt="Analyze">
-                    <h3 data-lang="en">Analyze</h3>
-                    <h3 data-lang="it">Analizza</h3>
-                    <p data-lang="en">AI reviews your bills</p>
-                    <p data-lang="it">L'AI esamina le tue bollette</p>
-                </div>
-                <div class="step">
-                    <img src="/api/placeholder/64/64" alt="Optimize">
-                    <h3 data-lang="en">Optimize</h3>
-                    <h3 data-lang="it">Ottimizza</h3>
-                    <p data-lang="en">Find better deals</p>
-                    <p data-lang="it">Trova offerte migliori</p>
-                </div>
-                <div class="step">
-                    <img src="/api/placeholder/64/64" alt="Save">
-                    <h3 data-lang="en">Save</h3>
-                    <h3 data-lang="it">Risparmia</h3>
-                    <p data-lang="en">Enjoy lower expenses</p>
-                    <p data-lang="it">Goditi spese più basse</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="testimonials" class="testimonials">
-            <div class="container">
-                <h2 data-lang="en">What Our Users Say</h2>
-                <h2 data-lang="it">Cosa Dicono i Nostri Utenti</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial">
-                        <p data-lang="en">"Tutto a posto saved me €500 on my annual bills!"</p>
-                        <p data-lang="it">"Tutto a posto mi ha fatto risparmiare €500 sulle bollette annuali!"</p>
-                        <p><strong>- Maria C.</strong></p>
-                    </div>
-                    <div class="testimonial">
-                        <p data-lang="en">"I never knew I could save so much without any effort."</p>
-                        <p data-lang="it">"Non avrei mai immaginato di poter risparmiare così tanto senza alcuno sforzo."</p>
-                        <p><strong>- Luca B.</strong></p>
-                    </div>
-                    <div class="testimonial">
-                        <p data-lang="en">"The AI agent found deals I never would have discovered."</p>
-                        <p data-lang="it">"L'agente AI ha trovato offerte che non avrei mai scoperto."</p>
-                        <p><strong>- Giulia M.</strong></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="lead-magnet">
-            <div class="container">
-                <h2 data-lang="en">Get Your Free Savings Analysis Report</h2>
-                <h2 data-lang="it">Ottieni il Tuo Rapporto Gratuito di Analisi dei Risparmi</h2>
-                <p data-lang="en">Discover how much you could save with Tutto a posto</p>
-                <p data-lang="it">Scopri quanto potresti risparmiare con Tutto a posto</p>
-                <button class="cta-button" data-lang="en">Get Free Report</button>
-                <button class="cta-button" data-lang="it">Ottieni Rapporto Gratuito</button>
-            </div>
-        </section>
-    </main>
-
-    <footer>
+    <section id="showcase">
         <div class="container">
-            <p>&copy; 2024 Tutto a posto. All rights reserved.</p>
+            <h1>Nurturing Your Family's Future, One Save at a Time</h1>
+            <p>Give your child the future they deserve, starting today</p>
+            <button onclick="startSaving()">Secure Your Child's Tomorrow</button>
         </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="feature-box">
+                <img src="/api/placeholder/100/100" alt="Family Financial Guardian">
+                <h3>Family Financial Guardian</h3>
+                <p>Our AI never sleeps, always protecting your family's financial health.</p>
+            </div>
+            <div class="feature-box">
+                <img src="/api/placeholder/100/100" alt="Milestone Money Mapper">
+                <h3>Milestone Money Mapper</h3>
+                <p>From first steps to college steps, we help you financially prepare for every beautiful moment ahead.</p>
+            </div>
+            <div class="feature-box">
+                <img src="/api/placeholder/100/100" alt="Adaptive Savings Ally">
+                <h3>Adaptive Savings Ally</h3>
+                <p>As your family grows, our AI grows with you, adjusting savings strategies to match your evolving needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Start Your Family's Saving Adventure</h2>
+            <form id="lead-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Get Your Free Family Financial Forecast</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="main-footer">
+        <p>Tutto a posto &copy; 2024 | Nurturing Families, Securing Futures</p>
     </footer>
 
-    <div class="cookie-consent" id="cookieConsent">
-        <div>
-            <p data-lang="en">This website uses cookies to improve your experience. Choose which cookies you allow:</p>
-            <p data-lang="it">Questo sito web utilizza i cookie per migliorare la tua esperienza. Scegli quali cookie consentire:</p>
-            <div class="cookie-options">
-                <div class="cookie-option">
-                    <input type="checkbox" id="necessaryCookies" checked disabled>
-                    <label for="necessaryCookies">
-                        <span data-lang="en">Necessary (required)</span>
-                        <span data-lang="it">Necessari (obbligatori)</span>
-                    </label>
-                </div>
-                <div class="cookie-option">
-                    <input type="checkbox" id="analyticsCookies">
-                    <label for="analyticsCookies">
-                        <span data-lang="en">Analytics</span>
-                        <span data-lang="it">Analisi</span>
-                    </label>
-                </div>
-                <div class="cookie-option">
-                    <input type="checkbox" id="marketingCookies">
-                    <label for="marketingCookies">
-                        <span data-lang="en">Marketing</span>
-                        <span data-lang="it">Marketing</span>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <button onclick="acceptCookies()">
-            <span data-lang="en">Accept Selected</span>
-            <span data-lang="it">Accetta Selezionati</span>
-        </button>
-    </div>
-
     <script>
-        function changeLanguage(lang) {
-            document.documentElement.lang = lang;
-            document.querySelectorAll('[data-lang]').forEach(el => {
-                el.style.display = el.dataset.lang === lang ? 'inline' : 'none';
-            });
+        function startSaving() {
+            alert("Thank you for choosing to secure your family's future with Tutto a posto!");
         }
 
-        function acceptCookies() {
-            const analyticsCookies = document.getElementById('analyticsCookies').checked;
-            const marketingCookies = document.getElementById('marketingCookies').checked;
-            
-            // Here you would typically set cookies based on user selection
-            console.log('Accepted cookies:', {
-                necessary: true,
-                analytics: analyticsCookies,
-                marketing: marketingCookies
-            });
-
-            document.getElementById('cookieConsent').style.display = 'none';
-        }
-
-        // Initialize language
-        changeLanguage('en');
+        document.getElementById('lead-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert("Thank you! Your Family Financial Forecast is on its way to your inbox.");
+        });
     </script>
 </body>
 </html>
